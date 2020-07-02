@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be5d6095e416d3333ccc3762024eee9f",
+    "revision": "2ac2c9f28cf64844a437108a5f74cb92",
     "url": "/techstore/index.html"
   },
   {
-    "revision": "acb65bd936de9731c43b",
+    "revision": "0c7e2b3e209a945dc6b8",
     "url": "/techstore/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2674cca5b4a020b9c73c",
+    "revision": "60870e890dd5b9f17dcc",
     "url": "/techstore/static/css/main.404fed0c.chunk.css"
   },
   {
-    "revision": "acb65bd936de9731c43b",
-    "url": "/techstore/static/js/2.9af8cc02.chunk.js"
+    "revision": "0c7e2b3e209a945dc6b8",
+    "url": "/techstore/static/js/2.89b7c6c2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/techstore/static/js/2.9af8cc02.chunk.js.LICENSE.txt"
+    "url": "/techstore/static/js/2.89b7c6c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2674cca5b4a020b9c73c",
-    "url": "/techstore/static/js/main.9b2ce919.chunk.js"
+    "revision": "60870e890dd5b9f17dcc",
+    "url": "/techstore/static/js/main.9edfe5d5.chunk.js"
   },
   {
     "revision": "55b19e85e061567ad200",
