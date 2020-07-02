@@ -14,27 +14,40 @@ import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import SideCart from "./components/SideCart";
-
+import Footer from "./components/Footer";
+import { ProductConsumer } from "./context";
 class App extends Component {
   render() {
     return (
-      <>
-        {/* navbar ,sidebar,cart,footer */}
-        <Navbar />
-        <Sidebar />
-        <SideCart />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/products" exact component={Products} />
-          <Route path="/products/:id" component={SingleProduct} />
-          <Route path="/cart" exact component={CartPage} />
-          <Route component={Default} />
-        </Switch>
-      </>
+      <ProductConsumer>
+        {(value) => {
+          const { manageSides } = value;
+
+          return (
+            <>
+              {/* navbar ,sidebar,cart,footer */}
+              <Navbar />
+              <Sidebar />
+              <SideCart />
+
+              <div onClick={manageSides}>
+                <Switch>
+                  <Route path="/" exact component={Home} />
+                  <Route path="/about" component={About} />
+                  <Route path="/contact" component={Contact} />
+                  <Route path="/products" exact component={Products} />
+                  <Route path="/products/:id" component={SingleProduct} />
+                  <Route path="/cart" exact component={CartPage} />
+                  <Route component={Default} />
+                </Switch>
+              </div>
+
+              <Footer />
+            </>
+          );
+        }}
+      </ProductConsumer>
     );
   }
 }
-
 export default App;
