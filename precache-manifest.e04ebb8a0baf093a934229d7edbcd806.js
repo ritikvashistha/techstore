@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed8713e0024bcaf3f8d2bc2b80fdc874",
+    "revision": "be5d6095e416d3333ccc3762024eee9f",
     "url": "/techstore/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techstore/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a53bde6f624ff22ef9d3",
+    "revision": "2674cca5b4a020b9c73c",
     "url": "/techstore/static/css/main.404fed0c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techstore/static/js/2.9af8cc02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a53bde6f624ff22ef9d3",
-    "url": "/techstore/static/js/main.251a17ef.chunk.js"
+    "revision": "2674cca5b4a020b9c73c",
+    "url": "/techstore/static/js/main.9b2ce919.chunk.js"
   },
   {
     "revision": "55b19e85e061567ad200",
