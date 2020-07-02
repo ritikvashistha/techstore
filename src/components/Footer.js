@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="col-md-6">
                   <p className="text-capitalize">
                     copyright &copy; tech store{new Date().getFullYear()}.all
-                    rights reserved
+                    rights reserved project By - Ritik vashistha
                   </p>
                 </div>
                 <div className="col-md-6 d-flex justify-content-around">

@@ -28,8 +28,10 @@ export default function SingleProductsPage() {
                 <div className="row">
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     <img
-                      src={`../${image}`}
-                      //using contentful src = {image}
+                      //for local setup
+                      //src={`../${image}`}
+                      //for build folder while deployment
+                      src={image}
                       alt="single product"
                       className="img-fluid"
                     />

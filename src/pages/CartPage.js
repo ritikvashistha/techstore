@@ -7,7 +7,7 @@ export default function CartPage() {
   return (
     <>
       <Hero img={cartBcg} />
-      <h1>Hello From Cart Page</h1>
+
       <CartSection />
     </>
   );
