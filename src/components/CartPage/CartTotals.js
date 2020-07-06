@@ -1,6 +1,7 @@
 import React from "react";
 import { ProductConsumer } from "../../context";
-export default function CartTotals() {
+import PayPalBtn from "./PayPalBtn";
+export default function CartTotals({ history }) {
   return (
     <div className="row">
       <ProductConsumer>
@@ -21,6 +22,12 @@ export default function CartTotals() {
                   total : <span className="text-danger">₹{cartTotal}</span>
                 </strong>
               </h3>
+              <p className="text-success">100% Safe & Secured Payments</p>
+              <PayPalBtn
+                history={history}
+                cartTotal={cartTotal}
+                clearCart={clearCart}
+              />
             </div>
           );
         }}
